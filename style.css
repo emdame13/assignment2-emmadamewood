@@ -1,0 +1,74 @@
+/* Body: font, line height, background color, spacing */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+    background-color: #F5F1E8; 
+    margin: 0;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Sticky header with box shadow */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #A68A6D; 
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+/* Navigation links static state*/
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/*Navigation hover state*/
+nav a:hover {
+    color: #3F5A47;
+    font-weight: bold;
+}
+
+/*Navigation active state*/
+nav a:active {
+    color: #2E3F33;
+    font-weight: bold;
+}
+
+/*Unique padding for first section*/
+.first_section {
+    margin-top: 120px; 
+}
+
+/* Centers main content*/
+section {
+    width: 80%;
+    max-width: 800px;
+    margin-top: 50px;
+    padding: 15px;
+    background-color: #FAF7F2;
+    color: #3F3A34;
+}
+
+/*Bolder heading font*/
+h1, h2, h3{
+    font-weight:700;
+
+}
+
+/* Footer matches header */
+footer {
+    background-color: #A68A6D;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    margin-top: 40px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
